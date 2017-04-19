@@ -1,17 +1,191 @@
 /*************************
            CSS
 **************************/
-h4{
-    width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    color: #072160;
-    font-family: sans-serif;
-    border: solid #072160;
+h4 {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #072160;
+  border: solid #072160;
 }
-main{
-    width: 845px;
-    height: 1024px;
-    margin: auto;
-    background-image: url('original.jpg');
+
+main {
+  width: 845px;
+  height: 1024px;
+  margin: auto;
+  background-image: url("original.jpg");
+  position: relative;
+}
+
+img {
+  position: absolute;
+}
+
+@keyframes slide1 {
+  from {
+    transform: translate(1200px, 900px);
+  }
+  to {
+    transform: translate(-25px, 28px) rotate(-90deg);
+  }
+}
+
+.image1 {
+  transform: translate(1200px, 900px);
+  animation: slide1 3.25s ease 0.40s 1 normal forwards;
+}
+
+@keyframes slide2 {
+  from {
+    transform: translate(150px, 1500px) rotate(180deg);
+  }
+  to {
+    transform: translateX(207px) rotate(0deg);
+  }
+}
+
+.image2 {
+  transform: translate(150px, 1500px) rotate(180deg);
+  animation: slide2 3.4s ease 0.45s 1 normal forwards;
+}
+
+@keyframes slide3 {
+  from {
+    transform: translate(-900px, 900px) rotate(180deg);
+  }
+  to {
+    transform: translateX(550px) rotate(0deg);
+  }
+}
+
+.image3 {
+  transform: translate(-900px, 900px) rotate(180deg);
+  animation: slide3 3.55s ease 0.50s 1 normal forwards;
+}
+
+@keyframes slide4 {
+  from {
+    transform: translate(1300px, 800px) rotate(-180deg);
+  }
+  to {
+    transform: translate(0, 265px) rotate(0deg);
+  }
+}
+
+.image4 {
+  transform: translate(1300px, 800px) rotate(-180deg);
+  animation: slide4 3.7s ease 0.55s 1 normal forwards;
+}
+
+@keyframes slide5 {
+  from {
+    transform: translate(600px, 1200px) rotate(180deg);
+  }
+  to {
+    transform: translate(288px, 193px) rotate(0deg);
+  }
+}
+
+.image5 {
+  transform: translate(600px, 1200px) rotate(180deg);
+  animation: slide5 3.85s ease 0.60s 1 normal forwards;
+}
+
+@keyframes slide6 {
+  from {
+    transform: translate(-750px, -450px) rotate(180deg);
+  }
+  to {
+    transform: translate(553px, 193px) rotate(0deg);
+  }
+}
+
+.image6 {
+  transform: translate(-750px, -450px) rotate(-180deg);
+  animation: slide6 4s ease 0.65s 1 normal forwards;
+}
+
+@keyframes slide7 {
+  from {
+    transform: translate(750px, -450px) rotate(-180deg);
+  }
+  to {
+    transform: translate(0, 520px) rotate(0deg);
+  }
+}
+
+.image7 {
+  transform: translate(750px, -450px) rotate(270deg);
+  animation: slide7 4.15s ease 0.70s 1 normal forwards;
+}
+
+@keyframes slide8 {
+  from {
+    transform: translate(-750px, -650px) rotate(270deg);
+  }
+  to {
+    transform: translate(194px, 490px) rotate(90deg);
+  }
+}
+
+.image8 {
+  transform: translate(-750px, -650px) rotate(270deg);
+  animation: slide8 4.3s ease 0.75s 1 normal forwards;
+}
+
+@keyframes slide9 {
+  from {
+    transform: translate(-1200px, 250px);
+  }
+  to {
+    transform: translate(475px, 468px) rotate(180deg);
+  }
+}
+
+.image9 {
+  transform: translate(-1200px, 250px);
+  animation: slide9 4.45s ease 0.80s 1 normal forwards;
+}
+
+@keyframes slide10 {
+  from {
+    transform: translate(1200px, -400px) rotate(-180deg);
+  }
+  to {
+    transform: translate(0, 799px) rotate(0deg);
+  }
+}
+
+.image10 {
+  transform: translate(1200px, -400px);
+  animation: slide10 4.6s ease 0.85s 1 normal forwards;
+}
+
+@keyframes slide11 {
+  from {
+    transform: translate(150px, -450px) rotate(-270deg);
+  }
+  to {
+    transform: translate(342px, 732px) rotate(-90deg);
+  }
+}
+
+.image11 {
+  transform: translate(150px, -450px) rotate(-270deg);
+  animation: slide11 4.85s ease 0.90s 1 normal forwards;
+}
+
+@keyframes slide12 {
+  from {
+    transform: translate(-650px, -550px);
+  }
+  to {
+    transform: translate(544px, 723px) rotate(-90deg);
+  }
+}
+
+.image12 {
+  transform: translate(-650px, -550px);
+  animation: slide12 5s ease 0.95s 1 normal forwards;
 }
